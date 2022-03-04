@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Client.Sample", "gRPC.Client.Sample\gRPC.Client.Sample.csproj", "{DDF38B0F-0916-4EEC-9A9D-8687679906C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.Server.Sample", "gRPC.Server.Sample\gRPC.Server.Sample.csproj", "{0212A6BB-2040-4299-839E-47DE0F38D6AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protobufs", "Protobufs", "{D0ED4E38-804B-41B0-8431-6589355F2BF4}"
+	ProjectSection(SolutionItems) = preProject
+		RealEstateAgency.proto = RealEstateAgency.proto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF38B0F-0916-4EEC-9A9D-8687679906C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF38B0F-0916-4EEC-9A9D-8687679906C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF38B0F-0916-4EEC-9A9D-8687679906C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF38B0F-0916-4EEC-9A9D-8687679906C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0212A6BB-2040-4299-839E-47DE0F38D6AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0212A6BB-2040-4299-839E-47DE0F38D6AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0212A6BB-2040-4299-839E-47DE0F38D6AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0212A6BB-2040-4299-839E-47DE0F38D6AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7BE0D8C-24C0-4797-B9A0-3F5108BFCE01}
+	EndGlobalSection
+EndGlobal

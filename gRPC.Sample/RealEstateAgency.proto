@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPC.Server.Sample.Services.gRPC";
+
+package RealEstateAgencyAPI;
+
+service RealEstate {
+	rpc GetDetails(GetDetailsRequest) returns (RealEstateDetailsResponse) {}
+}
+
+message GetDetailsRequest {}
+
+message RealEstateDetailsResponse {
+	string Id = 1;
+	string Streetname = 2;
+	int32 Number = 3;
+}
